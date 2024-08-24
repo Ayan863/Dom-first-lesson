@@ -1,0 +1,42 @@
+.add input{
+    width: 200px;
+    height: 20px;
+    border: #2A69EB solid 2px;
+    border-radius: 3px;
+}
+.add button{
+    width: 50px;
+    height: 26px;
+    border: #2A69EB solid 2px;
+    background-color: #2A69EB;
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+.task-lists .task-list{
+    height: 35px;
+    width: 260px;
+    border: black solid 1px;
+    background-color: #C4DFE4;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-lists .task-list i{
+    color: white;
+    border: #2A69EB solid 1px;
+    height: 25px;
+    width: 25px;
+    background-color: #2A69EB;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3px;
+}
+.task-lists .task-list span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2px;
+}
